@@ -1,0 +1,29 @@
+.main-body{
+    height: 500px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.dice img{
+    display: block;
+    margin: auto;
+    width: 240px;
+    height: 240px;
+    margin-top: 40px;
+}
+
+.result #message{
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 200px) and (max-width: 800px){
+     .main-body{
+        height: 380px;
+     }
+
+
+
+}
